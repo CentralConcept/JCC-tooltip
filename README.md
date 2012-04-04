@@ -1,6 +1,6 @@
 #Basic Tooltip plugin.
 
-#Usage:
+##Usage:
 
 * javascript:
 <pre>
