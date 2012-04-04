@@ -2,8 +2,8 @@
 
 #Usage:
 
-#javascript:
-
+* javascript:
+<pre>
 $(document).ready(function(){
         $('.tooltip').jcctooltip(
             {
@@ -21,18 +21,15 @@ $(document).ready(function(){
             }
         );
 })
-
-# HTML:
-* tooltip is taken from the rel attribute
+</pre>
+* HTML:
+ tooltip is taken from the rel attribute
 
 * For Basic tooltip 
-
-<a rel="tooltip" class="tooltip">tooltip</a>
+`<a rel="tooltip" class="tooltip">tooltip</a>`
 
 * For Image tooltip link an image (.jpg, .png, .gif)
-
-<a rel="image.jpg" class="tooltip">tooltip</a>
+`<a rel="image.jpg" class="tooltip">tooltip</a>`
 
 * with http in front, it is an ajax tooltip
-
-<a rel="http://ajax.html" class="tooltip">tooltip</a>
+`<a rel="http://ajax.html" class="tooltip">tooltip</a>`
