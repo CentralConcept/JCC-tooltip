@@ -3,7 +3,7 @@
  *  Description: Generate an text, image or ajax tooltip
  *  Author: Martin von Loh 
  *  Version: 1.3
- *  License: GPLv3
+ *  Dual MIT/BSD license
  */
 ;(function($, window, document, undefined) {
     var pluginName = 'jcctooltip',
